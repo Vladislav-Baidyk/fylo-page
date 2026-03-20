@@ -1,73 +1,37 @@
-# React + TypeScript + Vite
+# Fylo Dark Theme Landing Page 📁✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e8149221053c1d1). 
 
-Currently, two official plugins are available:
+Built with **React + Vite**, this project features a modern dark theme UI, responsive layouts, and dynamic data handling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Responsive Design:** Perfectly adapted for desktop and mobile (max-width: 480px).
+- **Dynamic Content:** Images, icons, and testimonials are managed via JSON files.
+- **Email Validation:** Custom validation logic using React `useState` to check for valid email formats.
+- **Modern UI Layout:** Implemented complex overlapping elements (Access Box over Footer) and SVG backgrounds.
+- **Automated Deployment:** Integrated with GitHub Pages for seamless updates.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔧 Technologies Used
 
-## Expanding the ESLint configuration
+- **React 19** (Functional Components, Hooks)
+- **Vite** (Build Tool)
+- **CSS3** (Flexbox, Positioning, Media Queries)
+- **JSON** (Local data management)
+- **gh-pages** (Deployment tool)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Live Demo
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Check out the live project here:  
+🔗 [https://vladislav-baidyk.github.io/fylo-page/](https://vladislav-baidyk.github.io/fylo-page/)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🎥 Preview
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![Project Preview](./src/assets/design/desktop-preview.jpg) 
+*(Note: If the image doesn't show, make sure the path to your screenshot is correct)*
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 How to Run Locally
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Vladislav-Baidyk/fylo-page.git](https://github.com/Vladislav-Baidyk/fylo-page.git)
