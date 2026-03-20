@@ -27,8 +27,9 @@ Check out the live project here:
 
 ## 🎥 Preview
 
-![Project Preview](./src/assets/design/desktop-preview.jpg) 
-*(Note: If the image doesn't show, make sure the path to your screenshot is correct)*
+
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e32d9428-8eab-4a1c-874d-0969cfeb96ae)
+
 
 ## 📁 How to Run Locally
 
