@@ -1,0 +1,16 @@
+{
+    "icons-footer":[
+        {
+            "id":1,
+            "url":"/src/images/twitter.png"
+        },
+        {
+            "id":2,
+            "url":"/src/images/facebook.png"
+        },
+        {
+            "id":3,
+            "url":"/src/images/instagram.png"
+        }
+    ]
+}
