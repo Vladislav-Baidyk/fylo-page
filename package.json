@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vladislav-baidyk.github.io/HomePage/",
+  "homepage": "https://vladislav-baidyk.github.io/fylo-page/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
