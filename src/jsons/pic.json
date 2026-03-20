@@ -6,40 +6,40 @@
     },
     {
         "id":2,
-        "url":"/images/bg-curvy-desktop.svg"   
+        "url":"images/bg-curvy-desktop.svg"   
     },
         {
         "id":3,
-        "url":"/images/bg-curvy-mobile.svg"   
+        "url":"images/bg-curvy-mobile.svg"   
     },
     {
         "id":4,
-        "url":"/images/illustration-intro.png"
+        "url":"images/illustration-intro.png"
     },
     {
         "id":5,
-        "url":"/images/illustration-stay-productive.png"
+        "url":"images/illustration-stay-productive.png"
     },
     {
         "id":6,
-        "url":"/images/icon-arrow.svg"
+        "url":"images/icon-arrow.svg"
     },
     {
         "id":7,
-        "url":"/images/bg-quotes.png"
+        "url":"images/bg-quotes.png"
     },
     {
         "id":8,
-        "url":"/images/icon-location.svg"
+        "url":"images/icon-location.svg"
     },
     {
         "id":9,
-        "url":"/images/icon-email.svg"
+        "url":"images/icon-email.svg"
     }
     ,
     {
         "id":10,
-        "url":"/images/icon-phone.svg"
+        "url":"images/icon-phone.svg"
     }
     ]
 }
