@@ -2,15 +2,15 @@
     "icons-footer":[
         {
             "id":1,
-            "url":"/src/images/twitter.png"
+            "url":"images/twitter.png"
         },
         {
             "id":2,
-            "url":"/src/images/facebook.png"
+            "url":"images/facebook.png"
         },
         {
             "id":3,
-            "url":"/src/images/instagram.png"
+            "url":"images/instagram.png"
         }
     ]
 }
